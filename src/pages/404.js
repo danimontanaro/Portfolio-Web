@@ -31,7 +31,7 @@ class NotFoundPage extends React.Component {
           title='404'
         />
         <Wrapper>
-          <MainTitle>404 Page Not Found</MainTitle>
+          <MainTitle> 404 Page Not Found </MainTitle>
           <Icon>
             <img src='/images/ufo-and-cow.svg' alt='ufo and cow' />
           </Icon>
