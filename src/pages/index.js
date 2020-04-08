@@ -50,6 +50,7 @@ class Home extends React.Component {
                     <a
                       className="social-link github"
                       href={siteConfig.social.github}
+                      target="_blank"
                     >
                       <FaGithub className="social-icon" size="32" />
                     </a>
@@ -58,6 +59,7 @@ class Home extends React.Component {
                     <a
                       className="social-link linkedin"
                       href={siteConfig.social.linkedin}
+                      target="_blank"
                     >
                       <FaLinkedin className="social-icon" size="32" />
                     </a>
