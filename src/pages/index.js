@@ -51,6 +51,7 @@ class Home extends React.Component {
                       className="social-link github"
                       href={siteConfig.social.github}
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <FaGithub className="social-icon" size="32" />
                     </a>
@@ -60,6 +61,7 @@ class Home extends React.Component {
                       className="social-link linkedin"
                       href={siteConfig.social.linkedin}
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <FaLinkedin className="social-icon" size="32" />
                     </a>
