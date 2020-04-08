@@ -1,79 +1,85 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: "Hi! I'm Daniela!",
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
+  authorName: 'Daniela Montanaro',
   twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  githubUsername: 'danimontanaro',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Developer, I like leaning and improving myself day a day.
+  When I was a teenager, I thought that the future was going to be all about programming and I liked the idea of creating my own pages.<br />
+  Now I enjoy my work! I am still studying full stack developer.
+  Nevertheless,I have to admit that I really like the front end. <br />
+  Since 2018 I have been doing programming courses and I have been studying software engineering at the <strong> National University of Technology.</strong>`,
   skills: [
     {
       name: 'HTML',
-      level: 70
+      level: 70,
     },
     {
       name: 'CSS',
-      level: 60
+      level: 70,
     },
     {
       name: 'Javascript',
-      level: 50
+      level: 60,
     },
     {
       name: 'NodeJs',
-      level: 40
+      level: 40,
     },
     {
       name: 'React',
-      level: 60
+      level: 60,
+    },
+    {
+      name: 'Angular',
+      level: 80,
+    },
+    {
+      name: 'Python',
+      level: 70,
+    },
+    {
+      name: 'Django',
+      level: 70,
+    },
+    {
+      name: 'SQL',
+      level: 80,
+    },
+    {
+      name: 'Docker - Docker Compose',
+      level: 70,
     },
     {
       name: 'Git',
-      level: 70
-    }
+      level: 70,
+    },
+    {
+      name: 'Manejo de Linux',
+      level: 80,
+    },
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: 'Ministro de Salud (GCBA)',
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'jan',
+        year: '2019',
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      duration: '1 yr e 3 mos',
+      occupation: 'Full Stack developer',
+      description:
+        'Development and maintenance, corrective and preventive, of the hospital management system (SIGEHOS).',
     },
     /* ... */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: 'https://twitter.com/_franciscodf',
+    linkedin: 'https://www.linkedin.com/in/DanielaMontanaro',
+    github: 'https://github.com/danimontanaro',
+    email: 'dani.montanaro21@gmail.com',
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
@@ -85,8 +91,8 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Daniela Montanaro',
       url: '/',
-    }
-  ]
+    },
+  ],
 }
