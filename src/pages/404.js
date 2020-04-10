@@ -28,10 +28,10 @@ class NotFoundPage extends React.Component {
         <SEO title="Page Not Found" />
         <Hero
           heroImg='/images/404.jpeg'
-          title='404'
+          title=''
         />
         <Wrapper>
-          <MainTitle> 404 Page Not Found </MainTitle>
+          <MainTitle> Page Not Found </MainTitle>
           <Icon>
             <img src='/images/ufo-and-cow.svg' alt='ufo and cow' />
           </Icon>
