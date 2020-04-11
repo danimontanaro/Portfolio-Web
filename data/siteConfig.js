@@ -69,7 +69,7 @@ module.exports = {
       duration: '1 yr e 3 mos',
       occupation: 'Full Stack developer',
       description:
-        'Development and maintenance, corrective and preventive, of the hospital management system (SIGEHOS).',
+        'I worked in the health section of the Buenos aires government. I developed with Angular js in the frontend side and with Python - Django in the backend and using Docker',
     },
     /* ... */
   ],
