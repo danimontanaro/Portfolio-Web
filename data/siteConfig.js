@@ -65,7 +65,7 @@ module.exports = {
       duration: '1 yr e 3 mos',
       occupation: 'Full Stack developer',
       description:
-        'I worked in the health section of the Buenos aires government. I developed with Angular js in the frontend side and with Python - Django in the backend and using Docker',
+        'I worked in the health section of the Buenos aires government. I developed with Angular js in the frontend side and with Python - Django in the backend and I using Docker tools for development workflows.',
     },
     /* ... */
   ],
