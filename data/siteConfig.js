@@ -6,11 +6,9 @@ module.exports = {
   twitterUsername: '_franciscodf',
   githubUsername: 'danimontanaro',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, I like leaning and improving myself day a day.
-  When I was a teenager, I thought that the future was going to be all about programming and I liked the idea of creating my own pages.<br />
-  Now I enjoy my work! I am still studying full stack developer.
-  Nevertheless,I have to admit that I really like the front end. <br />
-  Since 2018 I have been doing programming courses and I am studying software engineering at the <strong> National University of Technology.</strong>`,
+  authorDescription: `I like learning and improving myself every day. When I was a teenager, I knew that the future was going to be all about software and I liked the idea of creating my own pages from scratch.
+  In my last job, I have been developing the system used for the whole public health system in Buenos Aires, Argentina. This was a great experience, being able to participate in the build of a massive huge software that is being used by millions of people. 
+  I am always doing new courses and reading tech staff. Between my favorite things, I enjoy coding with React JS in the frontend and Python Django in the backend.`,
   skills: [
     {
       name: 'HTML',
