@@ -1,15 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Row, Col } from 'react-awesome-styled-grid'
-import { ThemeProvider } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/core/styles'
 import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
 import SendIcon from '@material-ui/icons/Send'
-import { createMuiTheme } from '@material-ui/core/styles';
-import blueGrey from '@material-ui/core/colors/blueGrey';
-import grey from '@material-ui/core/colors/grey';
+import { createMuiTheme } from '@material-ui/core/styles'
+import blueGrey from '@material-ui/core/colors/blueGrey'
+import grey from '@material-ui/core/colors/grey'
 
-const Contact = ({ className, title = 'contact me' }) => {
+const Contact = ({className, title = 'contact me' }) => {
   const customTheme = createMuiTheme({
     palette: {
       primary: blueGrey,
@@ -18,11 +18,11 @@ const Contact = ({ className, title = 'contact me' }) => {
     status: {
       danger: 'red',
     },
-  });
+  })
   return (
     <ThemeProvider theme={customTheme}>
       <div className={className}>
-        <Row>
+        <Row className="contact-title">
           <h1>{title}</h1>
         </Row>
         <Row align="center" justify="center">
@@ -83,6 +83,9 @@ const Contact = ({ className, title = 'contact me' }) => {
 }
 
 export default styled(Contact)`
+  .contact-title {
+    margin-left: 0;
+  }
   .w100 {
     width: 100%;
   }
@@ -94,7 +97,7 @@ export default styled(Contact)`
   .button {
     margin-top: 2em;
   }
-  
+
   .text-input {
     margin: 0 0 1.25em;
     width: 100%;
@@ -105,7 +108,7 @@ export default styled(Contact)`
   }
   @media (max-width: 1023px) {
     .text-area {
-      width: 100%
+      width: 100%;
     }
   }
 `

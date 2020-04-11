@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Javascript',
-      level: 60,
+      level: 50,
     },
     {
       name: 'NodeJs',
@@ -28,7 +28,7 @@ module.exports = {
     },
     {
       name: 'React',
-      level: 50,
+      level: 40,
     },
     {
       name: 'Angular',
@@ -36,11 +36,11 @@ module.exports = {
     },
     {
       name: 'Python',
-      level: 60,
+      level: 50,
     },
     {
       name: 'Django',
-      level: 60,
+      level: 50,
     },
     {
       name: 'SQL',
@@ -48,7 +48,7 @@ module.exports = {
     },
     {
       name: 'Docker - Docker Compose',
-      level: 60,
+      level: 40,
     },
     {
       name: 'Git',
@@ -56,7 +56,7 @@ module.exports = {
     },
     {
       name: 'Manejo de Linux',
-      level: 70,
+      level: 30,
     },
   ],
   jobs: [
