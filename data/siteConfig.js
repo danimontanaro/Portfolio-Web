@@ -14,11 +14,11 @@ module.exports = {
   skills: [
     {
       name: 'HTML',
-      level: 70,
+      level: 60,
     },
     {
       name: 'CSS',
-      level: 70,
+      level: 60,
     },
     {
       name: 'Javascript',
@@ -26,39 +26,39 @@ module.exports = {
     },
     {
       name: 'NodeJs',
-      level: 40,
+      level: 20,
     },
     {
       name: 'React',
-      level: 60,
+      level: 50,
     },
     {
       name: 'Angular',
-      level: 80,
+      level: 60,
     },
     {
       name: 'Python',
-      level: 70,
+      level: 60,
     },
     {
       name: 'Django',
-      level: 70,
+      level: 60,
     },
     {
       name: 'SQL',
-      level: 80,
+      level: 70,
     },
     {
       name: 'Docker - Docker Compose',
-      level: 70,
+      level: 60,
     },
     {
       name: 'Git',
-      level: 70,
+      level: 60,
     },
     {
       name: 'Manejo de Linux',
-      level: 80,
+      level: 70,
     },
   ],
   jobs: [
