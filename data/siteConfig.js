@@ -10,7 +10,7 @@ module.exports = {
   When I was a teenager, I thought that the future was going to be all about programming and I liked the idea of creating my own pages.<br />
   Now I enjoy my work! I am still studying full stack developer.
   Nevertheless,I have to admit that I really like the front end. <br />
-  Since 2018 I have been doing programming courses and I have been studying software engineering at the <strong> National University of Technology.</strong>`,
+  Since 2018 I have been doing programming courses and I am studying software engineering at the <strong> National University of Technology.</strong>`,
   skills: [
     {
       name: 'HTML',
