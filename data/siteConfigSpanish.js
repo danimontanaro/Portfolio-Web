@@ -5,7 +5,7 @@ module.exports = {
     authorName: 'Daniela Montanaro',
     twitterUsername: 'danimontanaro',
     githubUsername: 'danimontanaro',
-    authorAvatar: '/images/avatar.jpeg',
+    authorAvatar: '/images/avatar.jpg',
     titleAbout: `Sobre`,
     titleSkills: `Habilidades`,
     titleContact: `Contacto`,
@@ -99,7 +99,7 @@ module.exports = {
     background_color: '#ffffff',
     theme_color: '#25303B',
     display: 'minimal-ui',
-    icon: '/images/avatar.jpeg',
+    icon: 'static/images/avatar.jpg',
     headerLinks: [
       {
         label: 'Daniela Montanaro',
