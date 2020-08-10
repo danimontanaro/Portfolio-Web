@@ -41,6 +41,10 @@ module.exports = {
       level: 50,
     },
     {
+      name: 'Node js',
+      level: 30,
+    },
+    {
       name: 'Django',
       level: 50,
     },

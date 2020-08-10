@@ -14,7 +14,7 @@ module.exports = {
     titleRepositories: `Últimos repositorios en Github`,
     authorDescription: `Me apasiona aprender y superarme cada día. Cuando era adolescente, sabia que el futuro iba a estar orientado al software y me gustaba mucho la idea de crear mis propias paginas desde cero.
     En mi ultimo trabajo, colabore con el desarrollo de la Dirección General de Sistemas Informáticos del Ministerio de Salud de la Ciudad de Buenos Aires, Argentina. Fue una gran experiencia! ya que pude participar en la construcción de un enorme software que es utilizado por millones de personas.
-    Siempre realiza nuevos cursos y leo sobre las nuevas tecnologías. Entre mis lenguajes favoritos, disfruto codificar con React JS en el frontend y Python Django en el backend.`,
+    Siempre realizo nuevos cursos y leo sobre las nuevas tecnologías. Entre mis lenguajes favoritos, disfruto codificar con React JS en el frontend y Python Django en el backend.`,
     skills: [
       {
         name: 'HTML',
@@ -39,6 +39,10 @@ module.exports = {
       {
         name: 'Python',
         level: 50,
+      },
+      {
+        name: 'Node js',
+        level: 30,
       },
       {
         name: 'Django',
