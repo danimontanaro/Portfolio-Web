@@ -63,6 +63,17 @@ module.exports = {
   ],
   jobs: [
     {
+      company: 'Synergiar',
+      begin: {
+        month: 'May',
+        year: '2020',
+      },
+      duration: 'act',
+      occupation: 'Frontend Developer',
+      description:
+        'Working with React on the Frontend',
+    },
+    {
       company: 'Ministro de Salud (GCBA)',
       begin: {
         month: 'jan',
@@ -81,14 +92,14 @@ module.exports = {
     github: 'https://github.com/danimontanaro',
     email: 'dani.montanaro21@gmail.com',
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://portfolio.danimontanaro.now.sh/',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: '/images/avatar.jpeg',
   headerLinks: [
     {
       label: 'Daniela Montanaro',

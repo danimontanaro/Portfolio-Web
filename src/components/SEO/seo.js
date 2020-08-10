@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 function SEO({ description, lang, meta, keywords, title }) {
+  const customTitle = "Portfolio";
+  const imageUrl = 'https://portfolio.danimontanaro.now.sh/images/avatar.jpg';
   return (
     <StaticQuery
       query={detailsQuery}
@@ -15,8 +17,8 @@ function SEO({ description, lang, meta, keywords, title }) {
             htmlAttributes={{
               lang,
             }}
-            title={title}
-            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            title={customTitle}
+            titleTemplate={customTitle}
             meta={[
               {
                 name: `description`,
@@ -49,6 +51,14 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 name: `twitter:description`,
                 content: metaDescription,
+              },
+              {
+                name: `image`,
+                content: imageUrl,
+              },
+              {
+                name: `og:image`,
+                content: imageUrl,
               },
             ]
               .concat(

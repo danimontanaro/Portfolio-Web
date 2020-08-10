@@ -63,9 +63,13 @@ const LanguajeLink = styled(Link)`
   padding-right: 20px;
   min-width: 42px;
   z-index: 10;
+
+  a.language:hover {
+    color: #8533ff;
+  }
 `
 
-const GithubLink = styled(({ className }) => (
+/* const GithubLink = styled(({ className }) => (
   <a 
     className={className}
     href={`https://github.com/${siteConfig.githubUsername}`}
@@ -86,7 +90,7 @@ const GithubLink = styled(({ className }) => (
   padding-right: 20px;
   min-width: 42px;
   z-index: 10;
-`
+` */
 
 class Header extends React.Component {
   static contextType = LanguageContext
@@ -110,8 +114,13 @@ class Header extends React.Component {
           </HeaderLinkGroup>
           {/* <GithubLink /> */}
           <LanguajeLink>
-            <i className="flag us" onClick={()=> this.onLanguageChange('english')} />
-            <i className="flag ar" onClick={()=> this.onLanguageChange('spanish')} />
+            <a className="language" onClick={()=> this.onLanguageChange('english')} >
+              EN
+            </a>
+            <td />
+            <a className="language" onClick={()=> this.onLanguageChange('spanish')} >
+               ES
+            </a>
           </LanguajeLink>
         </HeaderNav>
       </HeaderWrapper>

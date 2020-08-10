@@ -8,13 +8,13 @@ module.exports = {
     authorAvatar: '/images/avatar.jpeg',
     titleAbout: `Sobre`,
     titleSkills: `Habilidades`,
-    titleContact: `Contactame`,
+    titleContact: `Contacto`,
     buttonContact: `Enviar`,
     titleExperience: `Experiencia`,
-    titleRepositories: `Ultimos repositorios en Github`,
-    authorDescription: `Me apasiona aprender y superarme cada dia. Cuando era adolecente, sabia que el futuro iba a estar orientado al software y me gustaba mucho la idea de crear mis propias paginas desde cero.
-    En mi ultimo trabajo, colabore con el desarrollo de la Dirección General de Sistemas Informáticos del Ministerio de Salud de la Ciudad de Buenos Aires, Argentina. Fue una gran experiencia! ya que pude participar en la contruccion de un enorme software que es utilizado por millones de personas.
-    Siempre realiza nuevos cursos y leo sobre las nuevas tecnologias. Entre mis lenguajes favoritos, disfruto codificar con React JS en el frontend y Python Django en el backend.`,
+    titleRepositories: `Últimos repositorios en Github`,
+    authorDescription: `Me apasiona aprender y superarme cada día. Cuando era adolescente, sabia que el futuro iba a estar orientado al software y me gustaba mucho la idea de crear mis propias paginas desde cero.
+    En mi ultimo trabajo, colabore con el desarrollo de la Dirección General de Sistemas Informáticos del Ministerio de Salud de la Ciudad de Buenos Aires, Argentina. Fue una gran experiencia! ya que pude participar en la construcción de un enorme software que es utilizado por millones de personas.
+    Siempre realiza nuevos cursos y leo sobre las nuevas tecnologías. Entre mis lenguajes favoritos, disfruto codificar con React JS en el frontend y Python Django en el backend.`,
     skills: [
       {
         name: 'HTML',
@@ -63,6 +63,17 @@ module.exports = {
     ],
     jobs: [
       {
+        company: 'Synergiar',
+        begin: {
+          month: 'May',
+          year: '2020',
+        },
+        duration: 'act',
+        occupation: 'Desarrollador Frontend',
+        description:
+          'Desarrollo con React en el frontend para diferentes proyectos',
+      },
+      {
         company: 'Ministro de Salud (GCBA)',
         begin: {
           month: 'Ene',
@@ -73,17 +84,6 @@ module.exports = {
         description:
           'Trabaje en SIGEHOS el sistema de salud de la Dirección General de Sistemas Informáticos del Ministerio de Salud de la Ciudad de Buenos Aires. Desarrolle con Angular JS en el frontend y Python - Django en el backend, también utilice herramientas de Docker.',
       },
-      {
-        company: 'Sinergiar',
-        begin: {
-          month: 'May',
-          year: '2020',
-        },
-        duration: 'act',
-        occupation: 'Desarrollador Frontend',
-        description:
-          'Desarrollo con React en el frontend para diferentes proyectos',
-      },
       /* ... */
     ],
     social: {
@@ -92,14 +92,14 @@ module.exports = {
       github: 'https://github.com/danimontanaro',
       email: 'dani.montanaro21@gmail.com',
     },
-    siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+    siteUrl: 'https://portfolio.danimontanaro.now.sh/',
     pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
     siteCover: '/images/cover.jpeg',
     googleAnalyticsId: 'UA-000000000-1',
     background_color: '#ffffff',
     theme_color: '#25303B',
     display: 'minimal-ui',
-    icon: 'src/assets/gatsby-icon.png',
+    icon: '/images/avatar.jpeg',
     headerLinks: [
       {
         label: 'Daniela Montanaro',
