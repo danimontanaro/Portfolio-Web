@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import styled from 'styled-components'
 import { Row, Col } from 'react-awesome-styled-grid'
 import { ThemeProvider } from '@material-ui/core/styles'
@@ -8,8 +8,10 @@ import SendIcon from '@material-ui/icons/Send'
 import { createMuiTheme } from '@material-ui/core/styles'
 import blueGrey from '@material-ui/core/colors/blueGrey'
 import grey from '@material-ui/core/colors/grey'
+import LanguageContext from '../contexts/LanguageContext'
 
 const Contact = ({className, title = 'contact me' }) => {
+  const { config } = useContext(LanguageContext);
   const customTheme = createMuiTheme({
     palette: {
       primary: blueGrey,
@@ -73,7 +75,7 @@ const Contact = ({className, title = 'contact me' }) => {
               variant="contained"
               type="submit"
             >
-              SEND
+              {config.buttonContact}
             </Button>
           </form>
         </Row>

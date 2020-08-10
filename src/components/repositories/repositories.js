@@ -2,6 +2,7 @@ import React from "react";
 import jsonFetch from "simple-json-fetch";
 import styled from 'styled-components'
 import siteConfig from '../../../data/siteConfig'
+import LanguageContext from '../contexts/LanguageContext'
 
 import Loader from '../loader'
 
@@ -17,6 +18,9 @@ class Repositories extends React.Component {
       status: 'loading'
     }
   }
+  
+  static contextType = LanguageContext;
+
   async componentDidMount () {
     const repos = await jsonFetch(endpoint);
     if (repos.json && repos.json.length) {
@@ -27,7 +31,7 @@ class Repositories extends React.Component {
     const { status } = this.state
     return (
       <div className={this.props.className}>
-        <h2>Latest repositories on Github</h2>
+        <h2>{this.context.config.titleRepositories}</h2>
         {status === "loading" && <div className='repositories__loader'><Loader /></div>}
         {status === "ready" &&
           this.state.repos && (

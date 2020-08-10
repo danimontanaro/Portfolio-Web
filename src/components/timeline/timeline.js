@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import styled from 'styled-components'
 import { config } from 'react-awesome-styled-grid'
-import siteConfig from '../../../data/siteConfig'
+import LanguageContext from '../contexts/LanguageContext'
 
 const Timeline = ({ className }) => {
+  const { config } = useContext(LanguageContext);
   return (
     <div className={className}>
-      <h1>Experience</h1>
-      {siteConfig.jobs && siteConfig.jobs.map(job => (
+      <h1>{config.titleExperience}</h1>
+      {config.jobs && config.jobs.map(job => (
         <article key={job.begin.month + job.begin.year} className='timeline__item'>
           <div className="inner">
             <span className="timeline__date">

@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import { FaGithub } from "react-icons/fa"
 import siteConfig from '../../../data/siteConfig'
+import LanguageContext from '../contexts/LanguageContext'
 
 const HeaderWrapper = styled.header`
   position: fixed;
@@ -48,6 +49,22 @@ const HeaderLink = styled(Link)`
   min-width: 42px;
   z-index: 10;
 `
+
+const LanguajeLink = styled(Link)`
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border: 0;
+  margin: 0;
+  margin-right: 0.5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 42px;
+  z-index: 10;
+`
+
 const GithubLink = styled(({ className }) => (
   <a 
     className={className}
@@ -72,9 +89,15 @@ const GithubLink = styled(({ className }) => (
 `
 
 class Header extends React.Component {
+  static contextType = LanguageContext
+
+  onLanguageChange = language => {
+    this.context.setLanguage(language);
+    
+  }
+ 
   render () {
     const { headerLinks } = siteConfig
-
     return (
       <HeaderWrapper>
         <HeaderNav>
@@ -85,7 +108,11 @@ class Header extends React.Component {
               </HeaderLink>
             ))}
           </HeaderLinkGroup>
-          <GithubLink />
+          {/* <GithubLink /> */}
+          <LanguajeLink>
+            <i className="flag us" onClick={()=> this.onLanguageChange('english')} />
+            <i className="flag ar" onClick={()=> this.onLanguageChange('spanish')} />
+          </LanguajeLink>
         </HeaderNav>
       </HeaderWrapper>
     )
