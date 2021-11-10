@@ -29,12 +29,12 @@ module.exports = {
       level: 70,
     },
     {
-      name: 'Python',
-      level: 50,
-    },
-    {
       name: 'Node js',
       level: 30,
+    },
+    {
+      name: 'Python',
+      level: 50,
     },
     {
       name: 'HTML',
