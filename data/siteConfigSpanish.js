@@ -1,5 +1,5 @@
 module.exports = {
-    siteTitle: "Hola! Soy Daniela!",
+    siteTitle: "Hola, Soy Daniela!",
     siteDescription: `Create your online curriculum in just a few minutes with this starter`,
     keyWords: ['gatsbyjs', 'react', 'curriculum'],
     authorName: 'Daniela Montanaro',
@@ -17,24 +17,16 @@ module.exports = {
     Siempre realizo nuevos cursos y leo sobre las nuevas tecnologías. Entre mis lenguajes favoritos, disfruto codificar con React JS en el frontend y Python Django en el backend.`,
     skills: [
       {
-        name: 'HTML',
-        level: 60,
-      },
-      {
-        name: 'CSS',
-        level: 60,
-      },
-      {
         name: 'Javascript',
         level: 50,
       },
       {
         name: 'React',
-        level: 40,
+        level: 60,
       },
       {
-        name: 'Angular',
-        level: 60,
+        name: 'React Native',
+        level: 70,
       },
       {
         name: 'Python',
@@ -45,8 +37,12 @@ module.exports = {
         level: 30,
       },
       {
-        name: 'Django',
-        level: 50,
+        name: 'HTML',
+        level: 70,
+      },
+      {
+        name: 'CSS',
+        level: 70,
       },
       {
         name: 'SQL',
@@ -54,11 +50,11 @@ module.exports = {
       },
       {
         name: 'Docker - Docker Compose',
-        level: 40,
+        level: 30,
       },
       {
         name: 'Git',
-        level: 60,
+        level: 70,
       },
       {
         name: 'Manejo de Linux',
@@ -67,15 +63,26 @@ module.exports = {
     ],
     jobs: [
       {
+        company: 'LifeTripper',
+        begin: {
+          month: 'Jun',
+          year: '2020',
+        },
+        duration: 'Act',
+        occupation: 'Desarrollador Frontend',
+        description:
+          'Desarrollo en una app mobile con React Native, Expo, HTML, CSS',
+      },
+      {
         company: 'Synergiar',
         begin: {
           month: 'May',
           year: '2020',
         },
-        duration: 'act',
+        duration: '8 meses',
         occupation: 'Desarrollador Frontend',
         description:
-          'Desarrollo con React en el frontend para diferentes proyectos',
+          'Partícipe en diferentes proyectos, agregué nuevas funcionalidades y arreglé diferentes errores. Desarrollé en React js, Redux, frameworks como Gatsby y Next js. También estuve trabajando en hacer posibles los diseños con HTML y CSS.',
       },
       {
         company: 'Ministro de Salud (GCBA)',
@@ -83,7 +90,7 @@ module.exports = {
           month: 'Ene',
           year: '2019',
         },
-        duration: '1 yr e 3 mos',
+        duration: '1 yr e 3 meses',
         occupation: 'Desarrollador Full Stack',
         description:
           'Trabaje en SIGEHOS el sistema de salud de la Dirección General de Sistemas Informáticos del Ministerio de Salud de la Ciudad de Buenos Aires. Desarrolle con Angular JS en el frontend y Python - Django en el backend, también utilice herramientas de Docker.',

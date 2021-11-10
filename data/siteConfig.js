@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "Hi! I'm Daniela!",
+  siteTitle: "Hi, I'm Daniela!",
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Daniela Montanaro',
@@ -17,24 +17,16 @@ module.exports = {
   I am always doing new courses and reading tech staff. Between my favorite things, I enjoy coding with React JS in the frontend and Python Django in the backend.`,
   skills: [
     {
-      name: 'HTML',
-      level: 60,
-    },
-    {
-      name: 'CSS',
-      level: 60,
-    },
-    {
       name: 'Javascript',
       level: 50,
     },
     {
       name: 'React',
-      level: 40,
+      level: 60,
     },
     {
-      name: 'Angular',
-      level: 60,
+      name: 'React Native',
+      level: 70,
     },
     {
       name: 'Python',
@@ -45,8 +37,12 @@ module.exports = {
       level: 30,
     },
     {
-      name: 'Django',
-      level: 50,
+      name: 'HTML',
+      level: 70,
+    },
+    {
+      name: 'CSS',
+      level: 70,
     },
     {
       name: 'SQL',
@@ -54,11 +50,11 @@ module.exports = {
     },
     {
       name: 'Docker - Docker Compose',
-      level: 40,
+      level: 30,
     },
     {
       name: 'Git',
-      level: 60,
+      level: 70,
     },
     {
       name: 'Manejo de Linux',
@@ -67,15 +63,26 @@ module.exports = {
   ],
   jobs: [
     {
+      company: 'LifeTripper',
+      begin: {
+        month: 'Jun',
+        year: '2020',
+      },
+      duration: 'Act',
+      occupation: 'Frontend Developer',
+      description:
+        'Work in the mobile Lifetripper app with React Native, Expo, HTML, CSS.',
+    },
+    {
       company: 'Synergiar',
       begin: {
         month: 'May',
         year: '2020',
       },
-      duration: 'act',
+      duration: '8 mos',
       occupation: 'Frontend Developer',
       description:
-        'Working with React on the Frontend',
+        'I participated in different projects.I added new functionalities and fixed different bugs.I developed with React js, Redux, frameworks like Gatsby and Next js. I also worked on making designs possible with HTML and CSS.',
     },
     {
       company: 'Ministro de Salud (GCBA)',
